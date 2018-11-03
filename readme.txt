@@ -25,3 +25,6 @@
 		5. Data in RecurringTransaction table is the desired output.
 
 6. The app times out after 10 seconds
+
+7. Information about the transactions and the recurring groups should persist even after stopping
+the Node.js app (Not done)
