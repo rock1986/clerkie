@@ -1,0 +1,42 @@
+[
+    {
+        "_id": "5bdd322389e238760cf3d0ca",
+        "transactions": [
+            {
+                "_id": "5bdd322389e238760cf3d0cb",
+                "name": "Quicken Loans 070518",
+                "amount": 1100,
+                "user_id": "1",
+                "trans_id": "7",
+                "date": "2018-07-05T08:00:00.000Z"
+            },
+            {
+                "_id": "5bdd322389e238760cf3d0cc",
+                "name": "Quicken Loans 080618",
+                "amount": 1105,
+                "user_id": "1",
+                "trans_id": "8",
+                "date": "2018-08-05T08:00:00.000Z"
+            },
+            {
+                "_id": "5bdd322389e238760cf3d0cd",
+                "name": "Quicken Loans 090418",
+                "amount": 1100,
+                "user_id": "1",
+                "trans_id": "9",
+                "date": "2018-09-05T08:00:00.000Z"
+            },
+            {
+                "_id": "5bdd322389e238760cf3d0ce",
+                "name": "Quicken Loans 100518",
+                "amount": 1100,
+                "user_id": "1",
+                "trans_id": "10",
+                "date": "2018-10-05T08:00:00.000Z"
+            }
+        ],
+        "name": "Quicken Loans 100518",
+        "next_amt": 1100,
+        "__v": 0
+    }
+]

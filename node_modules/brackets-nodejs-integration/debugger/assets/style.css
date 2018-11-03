@@ -1,0 +1,184 @@
+.breakpoint-gutter {
+    color: #822;
+    margin-left: 3px;
+}
+
+.node-debugger-bp-gutter {
+    width: 1.5em;
+}
+
+.brackets-nodejs-integration-debugger {
+    display: none;
+}
+
+.brackets-nodejs-integration-debugger-log-panel .toolbar.bottom {
+    padding: 0;
+    clear: both;
+}
+
+.brackets-nodejs-integration-debugger-log-panel a.icon {
+    margin: 0 10px;
+    color: #bbb;
+    font-size: 14px;
+}
+
+.brackets-nodejs-integration-debugger-log-panel .toolbar.bottom a {
+    margin-left: 15px;
+    color: #bbb;
+}
+
+.brackets-nodejs-integration-debugger-log-panel .toolbar.bottom a:hover {
+    color: #78B2F2;
+}
+
+.brackets-nodejs-integration-debugger-log-panel .action_btn {
+    color: #bbb;
+}
+
+.brackets-nodejs-integration-debugger-log-panel .action_btn:hover {
+    color: #78B2F2;
+}
+
+.brackets-nodejs-integration-debugger-log-panel a.removeBP:hover {
+    color: #F74687;
+}
+
+.brackets-nodejs-integration-debugger-log-panel a.inactive {
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+.brackets-nodejs-integration-debugger-log-panel a.active {
+    color: #78B2F2;
+}
+
+.brackets-nodejs-integration-debugger-selected-button {
+    color: #78B2F2 !important;
+}
+
+.brackets-nodejs-integration-debugger-log-panel a.ion-ios7-close {
+    color: #F74687;
+}
+
+.brackets-nodejs-integration-debugger-log-panel a.ion-ios7-checkmark {
+    color: #91CC41;
+}
+
+.brackets-nodejs-integration-debugger-input {
+    width: 180px;
+}
+
+.brackets-nodejs-integration-debugger-input .suggestion {
+    color: #822;
+}
+
+.brackets-nodejs-integration-debugger-input-wrapper {
+    bottom: 38px;
+    position: absolute;
+}
+
+
+/*.input-indicator {
+    content: ">>";
+    display: block;
+    height: 20px;
+    float: left;
+    color: #822;
+}*/
+
+.node-debugger-highlight {
+    background-color: rgba(130, 2, 0, 0.1);
+}
+
+.dark .node-debugger-highlight {
+    background-color: rgba(255, 127, 80, 0.1);
+}
+
+.brackets-nodejs-integration-debugger-wrapper .type {
+    color: orange;
+    padding-right: 5px;
+}
+
+.brackets-nodejs-integration-debugger-wrapper .simple_var {
+    padding-left: 9px;
+}
+
+.brackets-nodejs-integration-debugger-wrapper .var-name {
+    color: #822;
+    font-weight: bold;
+}
+
+.brackets-nodejs-integration-debugger-wrapper .hidden {
+    display: none !important;
+}
+
+.brackets-nodejs-integration-debugger-wrapper .brackets-nodejs-integration-debugger-content {
+    float: left;
+    width: 100%;
+    /*height: 0px;*/
+    overflow: scroll;
+}
+
+.brackets-nodejs-integration-debugger-log-panel {
+    height: 100%;
+}
+
+.brackets-nodejs-integration-debugger-wrapper {
+    height: -webkit-calc(100% - 44px);
+}
+
+.brackets-nodejs-integration-debugger {
+    max-width: 40%;
+    width: 40%;
+    height: 100%;
+}
+
+.brackets-nodejs-integration-debugger-wrapper .brackets-nodejs-integration-debugger-sidebar {
+    height: 100%;
+    overflow: auto;
+}
+
+.brackets-nodejs-integration-debugger-wrapper .locals {
+    height: 100%;
+}
+
+.brackets-nodejs-integration-debugger-wrapper .locals-wrapper {
+    height: 100%;
+}
+
+.brackets-nodejs-integration-debugger-wrapper .brackets-nodejs-integration-debugger-content {
+    display: none;
+    height: -webkit-calc(100% - 28px);
+}
+
+.brackets-nodejs-integration-debugger-wrapper .brackets-nodejs-integration-debugger-callback-stack {
+    display: none;
+    height: -webkit-calc(100% - 28px);
+}
+
+.brackets-nodejs-integration-debugger-log {
+    padding: 4px;
+}
+
+.brackets-nodejs-integration-debugger-log span.object {
+    display: block;
+    padding-right: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.brackets-nodejs-integration-debugger-log * {
+    -webkit-user-select: text;
+}
+
+.brackets-nodejs-integration-debugger-log span.object:before {
+    padding-right: 3px;
+    width: 6px;
+    display: inline-block;
+}
+
+.brackets-nodejs-integration-debugger-log span.object ~ .var {
+    display: block;
+    padding: 4px 4px 4px 24px;
+}
